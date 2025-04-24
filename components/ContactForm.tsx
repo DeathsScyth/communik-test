@@ -103,7 +103,7 @@ export default function ContactForm() {
 
       {/* Success/Error Messages */}
       {isSuccess && <p className="text-green-600 text-center mt-4">Merci ! Votre message a été envoyé.</p>}
-      {isError && <p className="text-red-600 text-center mt-4">Erreur lors de l'envoi. Veuillez réessayer.</p>}
+      {isError && <p className="text-red-600 text-center mt-4">Erreur lors de l&apos;envoi. Veuillez réessayer.</p>}
     </form>
   );
 }

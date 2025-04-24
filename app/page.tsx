@@ -10,7 +10,7 @@ export default function Home() {
           Imagine. Créez. Dominez.
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mb-10">
-          Communik via IA : là où l'intelligence artificielle rencontre l'élégance du design.
+          Communik via IA : là où l&apos;intelligence artificielle rencontre l&apos;élégance du design.
         </p>
         <div className="flex flex-col sm:flex-row gap-6">
           <Link href="/services" className="btn-primary">
@@ -28,9 +28,9 @@ export default function Home() {
           <h2 className="section-title">Notre Expertise</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
             {[
-              { title: "Branding", desc: "Conception d'identités visuelles fortes et intemporelles." },
-              { title: "Sites Web", desc: "Sites élégants, rapides, et optimisés pour l'expérience utilisateur." },
-              { title: "Stratégie IA", desc: "Utilisez la puissance de l'IA pour stimuler votre croissance." },
+              { title: "Branding", desc: "Conception d&apos;identités visuelles fortes et intemporelles." },
+              { title: "Sites Web", desc: "Sites élégants, rapides, et optimisés pour l&apos;expérience utilisateur." },
+              { title: "Stratégie IA", desc: "Utilisez la puissance de l&apos;IA pour stimuler votre croissance." },
               { title: "Automatisation", desc: "Optimisez vos workflows et gagnez en efficacité." }
             ].map((item, index) => (
               <div key={index} className="group transition">
@@ -46,9 +46,9 @@ export default function Home() {
       <section className="py-32 bg-gray-100 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-20">
           <div>
-            <h2 className="text-4xl font-bold mb-6">L'Art de Conjuguer Technologie et Créativité</h2>
+            <h2 className="text-4xl font-bold mb-6">L&apos;Art de Conjuguer Technologie et Créativité</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Chez Communik via IA, nous croyons qu'un design exceptionnel et une technologie intelligente doivent aller de pair. Nous façonnons des expériences digitales uniques en combinant l'élégance et l'innovation.
+              Chez Communik via IA, nous croyons qu&apos;un design exceptionnel et une technologie intelligente doivent aller de pair. Nous façonnons des expériences digitales uniques en combinant l&apos;élégance et l&apos;innovation.
             </p>
           </div>
           <div>
@@ -65,7 +65,7 @@ export default function Home() {
             {[
               { step: "Analyse", desc: "Compréhension de vos objectifs et enjeux." },
               { step: "Conception", desc: "Développement de stratégies sur mesure." },
-              { step: "Réalisation", desc: "Mise en œuvre et design d'expériences impactantes." },
+              { step: "Réalisation", desc: "Mise en œuvre et design d&apos;expériences impactantes." },
               { step: "Optimisation", desc: "Suivi, analyse, amélioration continue." }
             ].map((item, index) => (
               <div key={index} className="flex flex-col items-center">
@@ -88,10 +88,10 @@ export default function Home() {
             {[
               { name: "Claire B.", quote: "Communik a redéfini notre image de marque avec élégance et puissance." },
               { name: "Thomas M.", quote: "Une synergie parfaite entre design et stratégie IA. Résultats incroyables." },
-              { name: "Sophie R.", quote: "L'expérience utilisateur qu'ils ont créée est tout simplement magistrale." }
+              { name: "Sophie R.", quote: "L&apos;expérience utilisateur qu&apos;ils ont créée est tout simplement magistrale." }
             ].map((item, index) => (
               <div key={index} className="text-center">
-                <p className="text-2xl italic mb-6">"{item.quote}"</p>
+                <p className="text-2xl italic mb-6">&quot;{item.quote}&quot;</p>
                 <h4 className="font-semibold">{item.name}</h4>
               </div>
             ))}
@@ -105,9 +105,9 @@ export default function Home() {
           <h2 className="section-title">Nos Réalisations</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
             {[
-              { title: "BrandBoost", desc: "Refonte totale de l'identité visuelle et digitale." },
-              { title: "ConnectUp", desc: "Plateforme SaaS élégante propulsée par l'IA." },
-              { title: "AIX Insights", desc: "Déploiement d'une stratégie IA sur mesure." },
+              { title: "BrandBoost", desc: "Refonte totale de l&apos;identité visuelle et digitale." },
+              { title: "ConnectUp", desc: "Plateforme SaaS élégante propulsée par l&apos;IA." },
+              { title: "AIX Insights", desc: "Déploiement d&apos;une stratégie IA sur mesure." },
               { title: "FlowAuto", desc: "Automatisation intelligente pour start-up tech." }
             ].map((project, index) => (
               <div key={index} className="group transition hover:scale-105">
