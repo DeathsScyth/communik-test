@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">Communik via IA</h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            L'agence digitale qui combine stratégie, design & intelligence artificielle pour propulser votre marque.
+            L&apos;agence digitale qui combine stratégie, design & intelligence artificielle pour propulser votre marque.
           </p>
         </div>
 

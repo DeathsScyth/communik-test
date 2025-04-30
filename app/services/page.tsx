@@ -9,25 +9,25 @@ const services = [
     title: 'Branding & Identité Visuelle',
     description:
       'Nous façonnons des identités visuelles uniques qui marquent les esprits et incarnent les valeurs de votre entreprise.',
-    icon: <FaPaintBrush size={36} />, 
+    icon: <FaPaintBrush size={36} />,
   },
   {
     title: 'Sites Web Modernes',
     description:
       'Des sites web à fort impact visuel et fonctionnel, pensés pour l’expérience utilisateur et l’efficacité digitale.',
-    icon: <FaLaptopCode size={36} />, 
+    icon: <FaLaptopCode size={36} />,
   },
   {
     title: 'Stratégie IA sur Mesure',
     description:
-      "Exploitez le potentiel de l'intelligence artificielle pour automatiser, personnaliser et booster votre croissance.",
-    icon: <FaRobot size={36} />, 
+      'Exploitez le potentiel de l’intelligence artificielle pour automatiser, personnaliser et booster votre croissance.',
+    icon: <FaRobot size={36} />,
   },
   {
     title: 'Automatisation de Processus',
     description:
       'Rationalisez vos opérations avec des systèmes intelligents conçus pour gagner du temps et réduire les coûts.',
-    icon: <MdOutlineSettingsApplications size={36} />, 
+    icon: <MdOutlineSettingsApplications size={36} />,
   },
 ];
 
@@ -52,7 +52,9 @@ export default function Services() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="group bg-gray-50 hover:bg-black hover:text-white border border-gray-200 hover:shadow-xl transition rounded-2xl p-8 text-center flex flex-col items-center"
           >
-            <div className="mb-4 text-red-500 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
+            <div className="mb-4 text-red-500 group-hover:scale-110 transition-transform duration-300">
+              {service.icon}
+            </div>
             <h3 className="font-bold text-xl mb-3 group-hover:text-white transition">{service.title}</h3>
             <p className="text-gray-600 group-hover:text-gray-200 transition">
               {service.description}
@@ -67,7 +69,7 @@ export default function Services() {
           <blockquote className="text-xl sm:text-2xl font-light italic max-w-3xl mx-auto">
             “La technologie n’est puissante que lorsqu’elle sert l’humain.”
           </blockquote>
-          <p className="mt-4 text-gray-400 text-sm">— L'équipe Communik</p>
+          <p className="mt-4 text-gray-400 text-sm">— L’équipe Communik</p>
         </div>
       </section>
 

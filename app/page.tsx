@@ -19,10 +19,10 @@ export default function Home() {
         />
         <div className="relative z-10 h-full flex flex-col justify-end px-6 pb-16 md:pb-20 bg-black/40 text-white text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 max-w-4xl mx-auto md:mx-0">
-            COMMUNIK, une voix pour l'impact digital
+            COMMUNIK, une voix pour l&apos;impact digital
           </h1>
           <p className="text-md sm:text-lg md:text-xl max-w-xl mb-6 mx-auto md:mx-0">
-            Une agence créative alimentée par l'IA et portée par la stratégie, le design et l'automatisation.
+            Une agence créative alimentée par l&apos;IA et portée par la stratégie, le design et l&apos;automatisation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link href="/contact" className="btn-primary">Nous contacter</Link>
@@ -36,7 +36,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug">
-              Une agence 360°, un collectif humain, une vision pilotée par l'IA.
+              Une agence 360°, un collectif humain, une vision pilotée par l&apos;IA.
             </h2>
             <ul className="mt-8 text-gray-700 space-y-4 text-base sm:text-lg">
               <li>➀ IA comme pilote, humain comme moteur</li>
@@ -60,7 +60,7 @@ export default function Home() {
           Nos projets récents
         </h2>
         <p className="text-gray-600 text-md sm:text-lg max-w-2xl mx-auto mb-14">
-          Découvrez comment nous avons transformé les marques grâce à la stratégie, au design, à l’IA et à l’automatisation.
+          Découvrez comment nous avons transformé les marques grâce à la stratégie, au design, à l&apos;IA et à l&apos;automatisation.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
@@ -120,7 +120,7 @@ export default function Home() {
       <div className="flex flex-col items-center">
         <FaRobot className="text-red-500 text-4xl mb-4" />
         <h4 className="font-bold text-xl mb-2">IA</h4>
-        <p className="text-sm text-gray-400 text-center">Exploitez la puissance de l’intelligence artificielle.</p>
+        <p className="text-sm text-gray-400 text-center">Exploitez la puissance de l&apos;intelligence artificielle.</p>
       </div>
       <div className="flex flex-col items-center">
         <FaCogs className="text-red-500 text-4xl mb-4" />

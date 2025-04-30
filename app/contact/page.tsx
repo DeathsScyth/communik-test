@@ -8,7 +8,7 @@ export default function Contact() {
       <section className="max-w-4xl mx-auto text-center mb-16">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Nous contacter</h1>
         <p className="text-lg text-gray-600">
-          Un projet ambitieux ? Discutons ensemble autour d'une vision créative et stratégique.
+          Un projet ambitieux ? Discutons ensemble autour d&apos;une vision créative et stratégique.
         </p>
       </section>
 

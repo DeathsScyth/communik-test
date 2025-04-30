@@ -33,7 +33,7 @@ export default function Equipe() {
       <section className="text-center max-w-3xl mx-auto mb-16">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Notre Équipe</h1>
         <p className="text-lg text-gray-600">
-          Un collectif passionné à l'intersection du design, de l'intelligence artificielle et de la stratégie digitale.
+          Un collectif passionné à l&apos;intersection du design, de l&apos;intelligence artificielle et de la stratégie digitale.
         </p>
       </section>
 
