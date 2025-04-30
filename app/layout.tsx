@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
-import Header from "@/components/Header"; // We'll create this
-import Footer from "@/components/Footer"; // We'll create this
+import Header from "@/components/Header"; 
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Communik via IA - Propulsez votre business avec l'IA",
+  title: "Communik IA - Propulsez votre business avec l'IA",
   description: "Agence digitale élégante, créative et spécialisée en branding, IA et automatisation intelligente.",
   icons: {
     icon: "/favicon.ico",

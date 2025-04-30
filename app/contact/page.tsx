@@ -1,10 +1,20 @@
-import ContactForm from "@/components/ContactForm";
+'use client';
+
+import ContactForm from '@/components/ContactForm';
 
 export default function Contact() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center px-6 section-padding">
-      <h1 className="section-title">Contactez-Nous</h1>
-      <ContactForm />
+    <main className="min-h-screen bg-white text-gray-900 px-6 pt-28 pb-32">
+      <section className="max-w-4xl mx-auto text-center mb-16">
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Nous contacter</h1>
+        <p className="text-lg text-gray-600">
+          Un projet ambitieux ? Discutons ensemble autour d'une vision créative et stratégique.
+        </p>
+      </section>
+
+      <section className="max-w-3xl mx-auto w-full">
+        <ContactForm />
+      </section>
     </main>
   );
 }
